@@ -1,0 +1,49 @@
+@font-face {
+    font-family: 'DreamingOutLoudRegularPro';
+    src: url('../../dreaming-outloud-regular-pro.otf') format('woff2')
+}
+
+:root {
+    /* Colors */
+    --white: #FFFFFF;
+    --black: #000000;
+    --dark: #04364A;
+    --very-light-cian: #DAFFFB;
+    --cian: #6FC9CA;
+
+    /* Size */
+    --sm: 14px;
+    --md: 20px;
+    --lg: 46px;
+}
+
+body {
+    font-family: 'DreamingOutLoudRegularPro';
+    background-color: var(--cian);
+    padding: 5px;
+}
+
+.titulo h1 {
+    font-size: var(--lg);
+    color: var(--dark);
+    margin-bottom: 0px;
+}
+
+.definicion {
+    text-align: justify;
+    padding: 1px 10px;
+}
+
+.definicion p {
+    font-size: var(--md);
+    color: var(--white);
+}
+
+b {
+    color: var(--dark);
+}
+
+.video {
+    border: 3px solid var(--very-light-cian);
+    border-radius: 10px;
+}
